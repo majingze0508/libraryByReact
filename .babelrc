@@ -1,0 +1,14 @@
+// .bablerc
+
+
+{
+    "presets": ["react", "env"],
+    "env": {
+      "development": {
+        "presets": ["react-hmre"]
+      },
+      "production": {
+        "presets": ["react", "env"]
+      }
+    }
+  }
